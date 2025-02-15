@@ -1,37 +1,44 @@
 .card {
-    max-width: 413px;
-}
-
-.card__image {
+    width: 100%;
+    list-style: none;
+  }
+  .card__image {
     display: block;
-    width: 413px;
-    height: 413px;
+    object-fit: cover;
+    aspect-ratio: 1 /1;
+    width: 100%;
     border-radius: 8px;
-}
-
-.card__content {
+  }
+  .card__textbox {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-}
-
-.card__title {
-    color: #212121;
     margin: 12px 0 0;
+  }
+  .card__text {
+    margin: 0;
+    font-size: 20px;
     font-weight: 500;
-    size: 20px;
-    line-height: 24px;
-}
-
-.card__like-button {
-    padding: 0;
-    margin-top: 12px;
-    width: 23px;
+    max-width: 353px;
+  }
+  .card__button-like {
     height: 20px;
-    top: 425px;
-    left: 390px;
-    background-image: url(../images/heart.svg);
-    opacity: 40%;
+    width: 23px;
+    background-image: url("../images/heart.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: transparent;
-    border-style: none;
-}
+    border: none;
+    transition: opacity 0.25s ease-in-out;
+    align-self: flex-end;
+    opacity: 40%;
+  }
+  
+  .card__button-like:hover {
+    opacity: 100%;
+  }
+  
+  @media screen and (max-width: 460px) {
+    .card__text {
+      font-size: 16px;
+    }
+  }
