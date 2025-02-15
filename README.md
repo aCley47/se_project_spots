@@ -20,5 +20,4 @@ This is the sprint 3 final project, titled "Spots." It is a picture uploading an
 **Link**  
   
   https://acley47.github.io/se_project_spots
-
-  image.png
+  
