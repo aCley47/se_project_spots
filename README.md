@@ -4,7 +4,7 @@
 
 * Intro  
 * Implementations  
-* Images  
+* Link to Git page  
   
 **Intro**
   
@@ -17,8 +17,8 @@ This is the sprint 3 final project, titled "Spots." It is a picture uploading an
 * Media Queries -used to implement a smooth responsive design at different screen sizes
 
   
-**Images**  
+**Link**  
   
- [text](../../Downloads/spots-avatar-and-card-images.zip)
-  
+  https://acley47.github.io/se_project_spots
+
 Good luck and have fun!
