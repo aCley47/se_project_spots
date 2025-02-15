@@ -28,21 +28,21 @@
             <h1 class="profile__name overflow overflow--multi">
               Bessie Coleman
             </h1>
-            <h2 class="profile__about overflow overflow--multi">
+            <p class="profile__about overflow overflow--multi">
               Civil Aviator
-            </h2>
+            </p>
             <div class="profile__container-button">
-              <button class="button profile__button-edit">Edit Profile</button>
+              <button 
+                class="button profile__button-edit"
+                aria-label="Edit profile button"
+                type="button"
+              >Edit Profile
+              </button>
               <button
                 class="button profile__button-add"
                 aria-label="Add a new post button"
                 type="button"
-              >
-                <img
-                  src="./images/plus.svg"
-                  alt="Add icon"
-                  class="profile__add-icon"
-                />New Post
+              > <img src="./images/plus.svg" alt="Plus icon" class="button profile__plus-icon">New Post
               </button>
             </div>
           </div>
@@ -56,9 +56,9 @@
                 class="card__image"
               />
               <div class="card__textbox">
-                <h2 class="card__text overflow overflow--single">
+                <p class="card__text overflow overflow--single">
                   Val Thorens
-                </h2>
+                </p>
                 <button
                   class="button card__button-like"
                   aria-label="Like Button"
@@ -73,9 +73,9 @@
                 class="card__image"
               />
               <div class="card__textbox">
-                <h2 class="card__text overflow overflow--single">
+                <p class="card__text overflow overflow--single">
                   Restaurant terrace
-                </h2>
+                </p>
                 <button
                   class="button card__button-like"
                   aria-label="Like Button"
@@ -90,9 +90,9 @@
                 class="card__image"
               />
               <div class="card__textbox">
-                <h2 class="card__text overflow overflow--single">
+                <p class="card__text overflow overflow--single">
                   An outdoor cafe
-                </h2>
+                </p>
                 <button
                   class="button card__button-like"
                   aria-label="Like Button"
@@ -107,9 +107,9 @@
                 class="card__image"
               />
               <div class="card__textbox">
-                <h2 class="card__text overflow overflow--single">
+                <p class="card__text overflow overflow--single">
                   A very long bridge, over the forest in Germany
-                </h2>
+                </p>
                 <button
                   class="button card__button-like"
                   aria-label="Like Button"
@@ -124,9 +124,9 @@
                 class="card__image"
               />
               <div class="card__textbox">
-                <h2 class="card__text overflow overflow--single">
+                <p class="card__text overflow overflow--single">
                   Tunnel with morning light
-                </h2>
+                </p>
                 <button
                   class="button card__button-like"
                   aria-label="Like Button"
@@ -141,9 +141,9 @@
                 class="card__image"
               />
               <div class="card__textbox">
-                <h2 class="card__text overflow overflow--single">
+                <p class="card__text overflow overflow--single">
                   Mountain House
-                </h2>
+                </p>
                 <button
                   class="button card__button-like"
                   aria-label="Like Button"
@@ -155,7 +155,7 @@
         </section>
       </main>
       <footer class="footer">
-        <h3 class="footer__text">2025 &copy Spots</h3>
+        <p class="footer__text">2025 &copy; Spots</p>
       </footer>
     </div>
   </body>

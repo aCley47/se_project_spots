@@ -26,6 +26,7 @@
     margin: 0 0 12px;
     font-weight: 500;
     max-width: 420px;
+    line-height: 1;
   }
   .profile__about {
     font-weight: 500;
@@ -33,8 +34,8 @@
     opacity: 70%;
     padding: 0;
     margin: 0 0 18px;
-    flex-grow: 1;
     max-width: 420px;
+    line-height: 1;
   }
   .profile__edit {
     display: flex;
@@ -53,6 +54,8 @@
     color: #212121;
     opacity: 70%;
     font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
     border: none;
     width: 108px;
     text-align: right;
@@ -65,13 +68,16 @@
     max-width: 157px;
     color: #fcf5e5;
     border-radius: 8px;
+    border-style: none;
     line-height: 1;
     transition: opacity 0.25s ease-in-out;
     flex-grow: 1;
     align-self: flex-end;
     margin-left: auto;
+    font-weight: 500;
   }
-  .profile__add-icon {
+  
+  .profile__plus-icon {
     height: 12px;
     width: 12px;
     margin-right: 8px;
@@ -116,8 +122,6 @@
       align-items: center;
     }
     .profile__button-add {
-      height: 52px;
       min-width: calc(100vw - 32px);
-      flex-grow: 1;
     }
   }
