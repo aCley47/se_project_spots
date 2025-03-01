@@ -89,7 +89,7 @@
     opacity: 100%;
 }
 
-.modal__input:filled {
+.modal__input:fill {
     color: rgba(21, 21, 21, 1);
 }
 
