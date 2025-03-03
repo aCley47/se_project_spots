@@ -49,108 +49,23 @@
         </section>
         <section class="cards">
           <ul class="cards__list">
-            <li class="card">
-              <img
-                src="./images/1-photo-by-moritz-feldmann-from-pexels.jpg"
-                alt="View of buildings adjacent to a ski resort"
-                class="card__image"
-              />
-              <div class="card__textbox">
-                <p class="card__text overflow overflow--single">
-                  Val Thorens
-                </p>
-                <button
-                  class="button card__button-like"
-                  aria-label="Like Button"
-                  type="button"
-                ></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/2-photo-by-ceiline-from-pexels.jpg"
-                alt="View of a restaurant with seating on the street"
-                class="card__image"
-              />
-              <div class="card__textbox">
-                <p class="card__text overflow overflow--single">
-                  Restaurant terrace
-                </p>
-                <button
-                  class="button card__button-like"
-                  aria-label="Like Button"
-                  type="button"
-                ></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/3-photo-by-tubanur-dogan-from-pexels.jpg"
-                alt="View of tables and chairs with people eating"
-                class="card__image"
-              />
-              <div class="card__textbox">
-                <p class="card__text overflow overflow--single">
-                  An outdoor cafe
-                </p>
-                <button
-                  class="button card__button-like"
-                  aria-label="Like Button"
-                  type="button"
-                ></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/4-photo-by-maurice-laschet-from-pexels.jpg"
-                alt="A long suspended bridge over a forest"
-                class="card__image"
-              />
-              <div class="card__textbox">
-                <p class="card__text overflow overflow--single">
-                  A very long bridge, over the forest in Germany
-                </p>
-                <button
-                  class="button card__button-like"
-                  aria-label="Like Button"
-                  type="button"
-                ></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/5-photo-by-van-anh-nguyen-from-pexels.jpg"
-                alt="Man walking down a tunnel with lots of windows"
-                class="card__image"
-              />
-              <div class="card__textbox">
-                <p class="card__text overflow overflow--single">
-                  Tunnel with morning light
-                </p>
-                <button
-                  class="button card__button-like"
-                  aria-label="Like Button"
-                  type="button"
-                ></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/6-photo-by-moritz-feldmann-from-pexels.jpg"
-                alt="A cabin in the woods on a snowy day"
-                class="card__image"
-              />
-              <div class="card__textbox">
-                <p class="card__text overflow overflow--single">
-                  Mountain House
-                </p>
-                <button
-                  class="button card__button-like"
-                  aria-label="Like Button"
-                  type="button"
-                ></button>
-              </div>
-            </li>
+            <template id="card-template">
+              <li class="card">
+                <img
+                  src=""
+                  alt=""
+                  class="card__image"
+                />
+                <div class="card__textbox">
+                  <p class="card__text overflow overflow--single"></p>
+                  <button
+                    class="button card__button-like"
+                    aria-label="Like Button"
+                    type="button"
+                  ></button>
+                </div>
+              </li>
+            </template>
           </ul>
         </section>
       </main>
@@ -163,13 +78,13 @@
           </button>
           <h2 class="modal__title">Edit profile</h2>
           <form name="edit-profile" class="modal__form">
-            <label for="name" class="modal__label">
+            <label for="profile-name-input" class="modal__label">
               Name
-              <input id="name" type="text" class="modal__input" placeholder="Type your name">
+              <input id="profile-name-input" type="text" class="modal__input" placeholder="Type your name">
             </label>
-            <label for="description" class="modal__label">
+            <label for="profile-about-input" class="modal__label">
               Description
-              <input id="description" type="text" class="modal__input" placeholder="Describe yourself">
+              <input id="profile-about-input" type="text" class="modal__input" placeholder="Describe yourself">
             </label>
             <button type="submit" class="modal__submit-btn">Save</button>
           </form>
