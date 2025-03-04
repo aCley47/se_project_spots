@@ -42,7 +42,7 @@
                 class="button profile__button-add"
                 aria-label="Add a new post button"
                 type="button"
-              > <img src="./images/plus.svg" alt="Plus icon" class="button profile__plus-icon">New Post
+              > <img src="./images/plus.svg" alt="Plus icon" class="profile__plus-icon">New Post
               </button>
             </div>
           </div>
@@ -74,10 +74,10 @@
       </footer>
       <div class="modal" id="edit-modal">
         <div class="modal__container">
-          <button type="submit" class="modal__close-btn">
+          <button type="button" class="modal__close-btn">
           </button>
           <h2 class="modal__title">Edit profile</h2>
-          <form name="edit-profile" class="modal__form">
+          <form name="edit-profile" id="modal-form" class="modal__form">
             <label for="profile-name-input" class="modal__label">
               Name
               <input id="profile-name-input" type="text" class="modal__input" placeholder="Type your name">
